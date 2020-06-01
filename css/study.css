@@ -1,0 +1,30 @@
+.study {
+   text-align: center;
+   line-height: 1.4;
+}
+
+.study-row {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 4em;
+}
+
+.study-row h3 {
+   text-transform: uppercase;
+   margin: 2em 0 1em 0;
+}
+
+.study-row ul li:nth-child(1) {
+   font-weight: 600;
+}
+
+.study-row p {
+   padding: .5em 0;
+}
+
+@media (max-width: 978px) {
+   .study-row {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+}

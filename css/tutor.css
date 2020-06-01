@@ -1,0 +1,19 @@
+.main-tutor {
+   text-align: center;
+}
+
+.main-tutor .tutor h2 {
+   margin: 1.2em 0;
+}
+
+.main-tutor .tutor h3 {
+   margin: 1.2em 0 0.5em 0;
+}
+
+.main-tutor .tutor ul {
+   margin: 1em 0;
+}
+
+.main-tutor .tutor ul li:nth-child(2) {
+   font-style: italic;
+}

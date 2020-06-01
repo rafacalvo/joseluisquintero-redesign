@@ -1,0 +1,20 @@
+.main-arbitration {
+   text-align: center;
+}
+
+.main-arbitration .thesis,
+.main-arbitration .master {
+   margin: 2em 0 1.3em 0;
+}
+
+.main-arbitration .arbitration h3 {
+   margin: 1.2em 0 0.5em 0;
+}
+
+.main-arbitration .arbitration ul {
+   margin-bottom: 1.4em;
+}
+
+.main-arbitration .arbitration ul li:nth-child(2) {
+   font-style: italic;
+}

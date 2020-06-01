@@ -1,0 +1,30 @@
+.links-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 4em;
+   margin-top: 4em;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.links-grid {
+   font-size: 1.2em;
+}
+
+.links-grid a {
+   color: #3583c6;
+}
+
+@media (max-width: 450px) {
+   .links-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 4em;
+   }
+
+   .links-grid h2 {
+      margin: 0;
+      padding: 0;
+   }
+}

@@ -1,0 +1,32 @@
+h2 {
+   text-transform: uppercase;
+}
+.hour {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.hour-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 1.5em 0;
+}
+
+.hour-grid h2 a {
+   color: #3583c6;
+}
+
+@media (max-width: 450px) {
+   .hour-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 4em;
+   }
+
+   .hour-grid h2 {
+      padding: 1em 0;
+   }
+}
